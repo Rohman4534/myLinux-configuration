@@ -1,8 +1,6 @@
 # eror saat melakukan update
 
-restart pulseaudio.socket
+ke forum ini
 
-systemctl --user restart pulseaudio.socket
-
-
+https://bbs.archlinux.org/viewtopic.php?id=201496
 
