@@ -1,0 +1,3 @@
+# wine error
+## “ERROR: ld.so: object ‘/libgtk3-nocsd.so.0’ from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.”
+
