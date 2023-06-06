@@ -2,6 +2,7 @@
 virt-manager untuk menjalankan qemu emulator secara gui, untuk menggunakan nya virt-manager perlu di sambungkan ke qemu
 
 ## pesan error saat menyambung qemu
+saat pertama kali install qemu biasanya akan error seperti ini
 ```
 Unable to connect to libvirt qemu:///system.
 
