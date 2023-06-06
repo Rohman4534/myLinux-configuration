@@ -40,6 +40,11 @@ XAMPP: Starting ProFTPD.../opt/lampp/share/xampp/xampplib: line 22: netstat: com
 egrep: warning: egrep is obsolescent; using grep -E
 ok.
 ```
+jika tidak ada pesan seperti, itu mungkin saja error. install libxcrypt 
+
+```
+$ sudo pacman -S libxcrypt-compat
+```
 
 ## membuat shortcut xampp agar di klik di dekstop
 
