@@ -43,4 +43,32 @@ ok.
 
 ## membuat shortcut xampp agar di klik di dekstop
 
+buat file baru lalu salin ini
+```
+[Desktop Entry]
+Type=Application
+Icon=xampp
+Exec=sudo /opt/lampp/./manager-linux-x64.run
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=Xampp-8.2.4
+Name=rofi launcher
+Comment[en_US]=Xampp control panel
+Comment=Xampp control panel
+Path=/opt/lampp
+Terminal=true
+StartupNotify=false
+GenericName=Xampp control panel
+```
+beri nama Xampp-8.2.4.desktop dan simpan. pindahkan file nya ke /usr/share/application
+
+```
+$ sudo mv Xampp-8.2.4.desktop /usr/share/applications
+```
+
+dengan ini xampp nya sudah bisa di klik di dekstop.
+
+
+
 
