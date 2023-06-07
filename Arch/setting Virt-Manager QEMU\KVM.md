@@ -16,17 +16,10 @@ $ sudo pacman -S libvirt
 $ sudo usermod -aG libvirt rohman
 ```
 
-nyalakan dan restart semua service dari libvirt
+nyalakan dan restart semua service libvirt
 ```
 $ systemctl enable virtqemud
-$ systemctl enable virtnodedevd
-$ systemctl enable virtstoraged
-$ systemctl enable virtnetworkd
-
 $ systemctl restart virtqemud
-$ systemctl restart virtnodedevd
-$ systemctl restart virtstoraged
-$ systemctl restart virtnetworkd
 ```
 
 reboot dan tes ke virtual-manager lagi
