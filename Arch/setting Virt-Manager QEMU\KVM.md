@@ -21,10 +21,12 @@ nyalakan dan restart semua service dari libvirt
 $ systemctl enable virtqemud
 $ systemctl enable virtnodedevd
 $ systemctl enable virtstoraged
+$ systemctl enable virtnetworkd
 
 $ systemctl restart virtqemud
 $ systemctl restart virtnodedevd
 $ systemctl restart virtstoraged
+$ systemctl restart virtnetworkd
 ```
 
 reboot dan tes ke virtual-manager lagi
