@@ -30,7 +30,7 @@ msh belum ketemu caranya, tetapi ini beberapa cara sementara
 1. reboot dan ketika sudah mencapai dekstop langsung buka virtual-machine manager, qemu/kvm bisa terhubung/ connected
 
 
-2. dengan menjalan libvirt manual 
+2. dengan menjalankan libvirt manual 
 ```
 sudo libvirtd
 ```
