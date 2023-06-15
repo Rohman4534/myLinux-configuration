@@ -38,9 +38,16 @@ ke smb.conf dan buat perintah [global] seperti ini, di [global kalian bisa menam
 hosts allow = 192.168.29.  # mengizinkan semua client dari host .29
 interfaces = 192.168.12.29.9 # mengizinkan hanya 1 client jika ingin menambahkan lagi tambahkan tanda ( , )  lalu ip nya
 ```
+tambah user samba agar bisa login ke samba
+```
+$ sudo smbpasswd -a rohman
+New SMB password:
+Retype new SMB password:
+Added user rohman.
+```
 
 restart smb dan nmb
-
+$ systemctl start smb nmb
 
 
 
