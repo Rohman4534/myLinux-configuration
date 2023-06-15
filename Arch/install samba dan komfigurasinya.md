@@ -39,6 +39,8 @@ hosts allow = 192.168.29.  # mengizinkan semua client dari host .29
 interfaces = 192.168.12.29.9 # mengizinkan hanya 1 client jika ingin menambahkan lagi tambahkan tanda ( , )  lalu ip nya
 ```
 
+restart smb dan nmb
+
 
 
 
